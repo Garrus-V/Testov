@@ -7,6 +7,7 @@ import Sets from './web/Set/Sets';
 import Feedback from './web/Feedback/Feedback';
 import Reviews from './web/Reviews/Reviews';
 import Footer from './web/Footer/Footer';
+import Block from './web/Components/Block/Block';
 
 
 function App(props) {
@@ -14,6 +15,7 @@ function App(props) {
     <div className="wrapper">
       <div className="content">
         <Header />
+        <Block />
         <Mtraining />
         <Training />
         <Brushes />
