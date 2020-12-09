@@ -3,12 +3,12 @@
     max-width: auto;
     font-weight: 700;
     background-color: darkgray;
-    margin: 5px; 
+    
     text-align: center;   
 }
 
 .train img {
     margin: 10px; 
     width: 25%;
-     opacity: 0.7
+    opacity: 0.7
  }

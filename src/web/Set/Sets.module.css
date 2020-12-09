@@ -1,14 +1,47 @@
-.set{
-  text-align: center;
-  color: #000000;
-  max-width: auto;
-  font-weight: 700; 
-  margin: 5px;
-  background-color: cadetblue;
-    }
+.infoBlock__carouselBox{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  background-color: gray;
+}
+.infoBlock__carouselBox__block{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center ;
+  width: 440px;
+ height: 500px;
+ overflow: hidden;
+ border-radius: 10px;
+ border: 2px solid red;
 
-    .set img {
-      margin: 10px; 
-      width: 25%;
-       opacity: 0.7
-   }
+}
+.infoBlock__carouselBox__block--img{
+height: 350px;
+background-color: green;
+overflow: hidden;
+width: 100%;
+}
+.infoBlock__carouselBox__block__img{
+width: 100%;
+}
+
+.infoBlock__carouselBox__but{
+  padding: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.infoBlock__carouselBox__but:hover{  
+  padding: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .2s ease;
+}

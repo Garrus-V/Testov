@@ -25,7 +25,7 @@ text-align: center;
   height: 600px;
   justify-content: space-between;
   align-items: center;
-  max-width: 80%;
+  /*max-width: 80%;*/
   background-color: gray;
 }
 .infoBlock__carouselBox__block{
@@ -38,6 +38,13 @@ text-align: center;
  overflow: hidden;
  border-radius: 10px;
  border: 2px solid red;
+
+}
+.infoBlock__carouselBox__block--img{
+height: 350px;
+background-color: green;
+overflow: hidden;
+width: 100%;
 
 }
 .infoBlock__carouselBox__block__img{

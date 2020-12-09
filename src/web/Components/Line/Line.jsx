@@ -1,12 +1,11 @@
 import React from 'react';
-import head from './Line.module.css';
 
 
 
-const Line = (props) => {
+export default function Line  (props)  {
 
   return (
-    <div className={head.head}>
+    <div className ='line'>
       <div>
         <text>Текст</text>
       </div>
@@ -14,4 +13,3 @@ const Line = (props) => {
   );
 }
 
-export default Line;
