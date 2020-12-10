@@ -2,7 +2,7 @@ import React from 'react';
 import rev from './Reviews.module.css';
 
 
-const Reviews =(props)=> {
+export default function Reviews (props) {
    
     return (
         <div className={rev.reviews}>
@@ -13,5 +13,3 @@ const Reviews =(props)=> {
         );
             
     }   
-    
-    export default Reviews;

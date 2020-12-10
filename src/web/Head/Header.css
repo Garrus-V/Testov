@@ -1,0 +1,66 @@
+.head__cont{
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     /*background-color: gray;*/
+     align-items: center;
+     flex-wrap: wrap;
+     flex-basis: auto;
+
+  }
+
+  .head__cont__text{
+    display: inline-flex;
+    color: #000000;
+    font-size: 100px;
+    flex-basis: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: solid; 
+    background-color: aquamarine;
+    
+  }
+
+  .head__cont__img{
+    display: inline-flex;
+    flex-basis: 300px;
+    font-size: 100px;
+    padding: 20px;
+    margin: 10px;
+    border: solid;
+    background-color: cadetblue;
+
+  }
+  .head__cont__buuton{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+     flex-basis: auto;
+    border: solid;
+    background-color: burlywood;
+
+  }
+.head__cont__buuton__but{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+margin: 10px;
+border: solid;
+background-color: olivedrab;
+
+}
+.head__cont__buuton__buut{
+  display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+margin: 10px;
+border: solid;
+background-color: olivedrab;
+
+
+}
+  

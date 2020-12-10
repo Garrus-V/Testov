@@ -2,14 +2,14 @@
 
     padding: 10px;
     margin: 10px;
-
 }
-
 
 .feed{
 text-align: left;
-
-
+}
+.form-control{
+ border-radius: 20px;
 
 }
+
 

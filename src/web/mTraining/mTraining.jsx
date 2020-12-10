@@ -4,6 +4,7 @@ import firstImg from '../../images/3.jpg'
 import secImg from '../../images/4.jpg'
 import thidImg from '../../images/5.jpg'
 
+
 export default function Block() {
     const [arrFix, setarrFix] = useState(3)
     const [active, setactive] = useState([
@@ -37,7 +38,7 @@ export default function Block() {
 
             <div className="infoBlock__carouselBox">
                 <div className="infoBlock__carouselBox__but" onClick={() => left()}>
-                    Влево
+                Влево
                   </div>
                 {active.length > 0 && active.map((item, index) => {
                     return (

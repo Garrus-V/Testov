@@ -5,7 +5,7 @@ import feede from './Feedback.module.css';
 import h from './Feedback.module.css';
 
 
-const Feedback = (props) => {
+export default function Feedback(props) {
 
     return (
 
@@ -22,6 +22,7 @@ const Feedback = (props) => {
                         <li>Новые видеоуроки</li>
                     </ul>
                 </div>
+                <p>Я буду уведомлять тебя, если будет происходить что-нибудь очень интересное :)</p>
             </div>
             <div className={feede.feede}>
                 <Feed />
@@ -32,4 +33,3 @@ const Feedback = (props) => {
 
 }
 
-export default Feedback;

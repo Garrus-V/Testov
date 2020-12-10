@@ -14,7 +14,7 @@ import Line from './web/Components/Line/Line';
 function App(props) {
   return (
     <div className="wrapper">
-      <div className="content">
+      <div>
         <Header />
         <Block />
         <Line />

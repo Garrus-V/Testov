@@ -1,19 +1,14 @@
-.infoblock{
-    width: 100%;
-    background-color: #ffc400;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: #fff;
-    font-size: 30px;
-    height: auto;
-    padding: 20px;
-  }
-  
-  .infoblock div{
-  max-width: 60%;
-  text-align: center;
-  }
+.info{
+  width: 100%;
+  background-color: #817171;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+}
+.info div{
+
+text-align: center;
+
+
+}
+

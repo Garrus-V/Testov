@@ -18,6 +18,7 @@
  overflow: hidden;
  border-radius: 10px;
  border: 2px solid red;
+ 
 
 }
 .infoBlock__carouselBox__block--img{
@@ -25,6 +26,7 @@ height: 350px;
 background-color: green;
 overflow: hidden;
 width: 100%;
+
 }
 .infoBlock__carouselBox__block__img{
 width: 100%;
