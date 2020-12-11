@@ -16,8 +16,8 @@
     flex-basis: 300px;
     padding: 20px;
     margin: 10px;
-    border: solid; 
-    background-color: aquamarine;
+    /*border: solid; 
+    background-color: aquamarine;*/
     
   }
 
@@ -27,29 +27,37 @@
     font-size: 100px;
     padding: 20px;
     margin: 10px;
-    border: solid;
-    background-color: cadetblue;
+    /*border: solid;
+    background-color: cadetblue;*/
 
   }
-  .head__cont__buuton{
+  .head__cont__buuton button {
     display: flex;
     align-items: center;
     padding: 20px;
     margin: 10px;
     flex-wrap: wrap;
-     flex-basis: auto;
-    border: solid;
-    background-color: burlywood;
-
+    flex-basis: auto;
+    border-radius: 20px;
+    
+    /*border: solid;
+    background-color: burlywood;*/
   }
+  .head__cont__buuton button:hover {
+    background-color: orangered;
+    color: #ffff;
+    transition: .5s ease;
+    border-radius: 40px;
+  }
+
 .head__cont__buuton__but{
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 20px;
 margin: 10px;
-border: solid;
-background-color: olivedrab;
+/*border: solid;
+background-color: olivedrab;*/
 
 }
 .head__cont__buuton__buut{
@@ -58,8 +66,8 @@ justify-content: center;
 align-items: center;
 padding: 20px;
 margin: 10px;
-border: solid;
-background-color: olivedrab;
+/*border: solid;
+background-color: olivedrab;*/
 
 
 }

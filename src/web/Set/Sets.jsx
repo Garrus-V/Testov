@@ -37,7 +37,7 @@ export default function Sets() {
 
             <div className="infoBlock__carouselBox">
                 <div className="infoBlock__carouselBox__but" onClick={() => left()}>
-                    Влево
+                    <p>&lt;</p>
                   </div>
                 {active.length > 0 && active.map((item, index) => {
                     return (
@@ -47,14 +47,14 @@ export default function Sets() {
                             <div className='infoBlock__carouselBox__block--title2'>{item.title2}</div>
                             <div>{item.listik.map((item, index) => {
                                 return (
-                                    <span key={index}>{item}</span>
+                                    <li key={index}>{item}</li>
                                 )
                             })}</div>
                         </div>
                     )
                 })}
                 <div className="infoBlock__carouselBox__but" onClick={() => rigth()}>
-                    Вправо
+                    <p>&gt;</p>
                 </div>
             </div>
         </>

@@ -9,6 +9,10 @@ import Reviews from './web/Reviews/Reviews';
 import Footer from './web/Footer/Footer';
 import Block from './web/Components/Block/Block';
 import Line from './web/Components/Line/Line';
+import Line1 from './web/Components/Line/Line1';
+import Line2 from './web/Components/Line/Line2';
+import Line3 from './web/Components/Line/Line3';
+import Line4 from './web/Components/Line/Line4';
 
 
 function App(props) {
@@ -19,13 +23,13 @@ function App(props) {
         <Block />
         <Line />
         <Mtraining />
-        <Line />
+        <Line1 />
         <Training />
-        <Line />
+        <Line2 />
         <Brushes />
-        <Line />
+        <Line3 />
         <Sets />
-        <Line />
+        <Line4 />
         <Feedback />
         <Reviews />
       </div>

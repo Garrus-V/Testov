@@ -7,7 +7,7 @@ export default function Line(props) {
   return (
     <div className= 'info'>
       <div>
-        <p  className ='info__tex'>&#10102;</p>
+        <p  className ='info__tex'>&#10103;</p>
       </div>
     </div>
   )

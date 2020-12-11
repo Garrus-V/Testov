@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './mTraining.module.css'
-import firstImg from '../../images/3.jpg'
-import secImg from '../../images/4.jpg'
-import thidImg from '../../images/5.jpg'
+import firstImg from '../../images/01.jpg'
+import secImg from '../../images/03.jpg'
+import thidImg from '../../images/1.jpg'
 
 
 export default function Block() {
@@ -38,7 +38,7 @@ export default function Block() {
 
             <div className="infoBlock__carouselBox">
                 <div className="infoBlock__carouselBox__but" onClick={() => left()}>
-                Влево
+                <p>&lt;</p>
                   </div>
                 {active.length > 0 && active.map((item, index) => {
                     return (
@@ -48,14 +48,15 @@ export default function Block() {
                             <div className='infoBlock__carouselBox__block--title2'>{item.title2}</div>
                             <div>{item.listik.map((item, index) => {
                                 return (
-                                    <span key={index}>{item}</span>
+                                    
+                                    <li key={index}>{item}</li>
                                 )
                             })}</div>
                         </div>
                     )
                 })}
                 <div className="infoBlock__carouselBox__but" onClick={() => rigth()}>
-                    Вправо
+                    <p>&gt;</p>
                 </div>
             </div>
         </>
