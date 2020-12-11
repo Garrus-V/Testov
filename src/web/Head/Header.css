@@ -6,7 +6,7 @@
      align-items: center;
      flex-wrap: wrap;
      flex-basis: auto;
-
+     
   }
 
   .head__cont__text{
@@ -31,36 +31,39 @@
     background-color: cadetblue;*/
 
   }
-  .head__cont__buuton button {
-    display: flex;
+  .head__buuton button {
+    /*display: flex;*/
     align-items: center;
     padding: 20px;
     margin: 10px;
     flex-wrap: wrap;
     flex-basis: auto;
     border-radius: 20px;
+    height: 50px;
+    width: 400px
+    
     
     /*border: solid;
     background-color: burlywood;*/
   }
-  .head__cont__buuton button:hover {
+  .head__buuton button:hover {
     background-color: orangered;
     color: #ffff;
-    transition: .5s ease;
-    border-radius: 40px;
+    transition: .2s ease;
+   /* border-radius: 20px;*/
   }
 
-.head__cont__buuton__but{
+.head__buuton__but{
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 20px;
+/*padding: 20px;
 margin: 10px;
-/*border: solid;
+border: solid;
 background-color: olivedrab;*/
 
 }
-.head__cont__buuton__buut{
+.head__buuton__buut{
   display: flex;
 justify-content: center;
 align-items: center;
@@ -68,7 +71,4 @@ padding: 20px;
 margin: 10px;
 /*border: solid;
 background-color: olivedrab;*/
-
-
-}
-  
+}  

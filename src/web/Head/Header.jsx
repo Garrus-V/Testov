@@ -16,8 +16,8 @@ export default function Header(props) {
         <img src={logo} alt='logotip' />
       </div>
 
-      <div className='head__cont__buuton'>
-        <div className='head__cont__buuton__but'>
+      <div className='head__buuton'>
+        <div className='head__buuton__but'>
         
           <button className='button'>Хочу на курс</button>
             
@@ -27,7 +27,7 @@ export default function Header(props) {
         
         </div>
        
-        <div className='head__cont__buuton__buut'>
+        <div className='head__buuton__buut'>
           <button className='button'>Набор кистей</button>
         </div>
 

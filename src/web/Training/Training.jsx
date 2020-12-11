@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './Training.module.css'
-import firstImg from '../../images/3.jpg'
-import secImg from '../../images/4.jpg'
-import thidImg from '../../images/5.jpg'
+import './Training.css'
+import firstImg from '../../images/01.jpg'
+import secImg from '../../images/02.jpg'
+import thidImg from '../../images/03.jpg'
 
 
 export default function Training() {
@@ -36,16 +36,16 @@ export default function Training() {
         <>
 
 
-            <div className="infoBlock__carouselBox">
-                <div className="infoBlock__carouselBox__but" onClick={() => left()}>
+            <div className="infoBlock__carouselBox2">
+                <div className="infoBlock__carouselBox__but2" onClick={() => left()}>
                  <p>&lt;</p>
                 </div>
                 {active.length > 0 && active.map((item, index) => {
                     return (
-                        <div key={index} className={'infoBlock__carouselBox__block'}>
-                            <div className='infoBlock__carouselBox__block--img'><img src={item.img} alt={'sad'} /></div>
-                            <div className='infoBlock__carouselBox__block--title1'>{item.title1}</div>
-                            <div className='infoBlock__carouselBox__block--title2'>{item.title2}</div>
+                        <div key={index} className={'infoBlock__carouselBox__block2'}>
+                            <div className='infoBlock__carouselBox__block--img2'><img src={item.img} alt={'sad'} /></div>
+                            <div className='infoBlock__carouselBox__block--title12'>{item.title1}</div>
+                            <div className='infoBlock__carouselBox__block--title22'>{item.title2}</div>
                             <div>{item.listik.map((item, index) => {
                                 return (
                                     <li key={index}>{item}</li>
@@ -54,7 +54,7 @@ export default function Training() {
                         </div>
                     )
                 })}
-                <div className="infoBlock__carouselBox__but" onClick={() => rigth()}>
+                <div className="infoBlock__carouselBox__but2" onClick={() => rigth()}>
                     <p>&gt;</p>
                 </div>
             </div>

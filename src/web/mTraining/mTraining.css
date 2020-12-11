@@ -1,0 +1,55 @@
+.infoBlock__carouselBox1{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  justify-content: space-between;
+  align-items: center;
+ /* max-width: 80%;*/
+  /*background-color: gray;*/
+}
+.infoBlock__carouselBox__block1{
+ /*display: flex;*/
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center ;
+ width: 440px;
+ height: 700px;
+ overflow: hidden;
+ border-radius: 10px;
+ border: 2px solid red;
+
+}
+.infoBlock__carouselBox__block--img1{
+height: 550px;
+background-color: green;
+overflow: hidden;
+width: 100%;
+/*border-radius: 20px;*/
+width:400px; 
+
+}
+.infoBlock__carouselBox__block__img1{
+width: 100%;
+}
+
+.infoBlock__carouselBox__but1{
+  padding: 20px;
+  font-weight: 400;
+  
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.infoBlock__carouselBox__but:hover{  
+  padding: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.infoBlock__carouselBox__block__lst1{
+  display: flex;
+ justify-content: start;
+}

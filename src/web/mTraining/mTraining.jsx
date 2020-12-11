@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './mTraining.module.css'
+import './mTraining.css'
 import firstImg from '../../images/01.jpg'
 import secImg from '../../images/03.jpg'
 import thidImg from '../../images/1.jpg'
@@ -36,16 +36,16 @@ export default function Block() {
         <>
 
 
-            <div className="infoBlock__carouselBox">
-                <div className="infoBlock__carouselBox__but" onClick={() => left()}>
-                <p>&lt;</p>
+            <div className="infoBlock__carouselBox1">
+                <div className="infoBlock__carouselBox__but1" onClick={() => left()}>
+                <p >&lt;</p>
                   </div>
                 {active.length > 0 && active.map((item, index) => {
                     return (
-                        <div key={index} className={'infoBlock__carouselBox__block'}>
-                            <div className='infoBlock__carouselBox__block--img'><img src={item.img} alt={'sad'} /></div>
-                            <div className='infoBlock__carouselBox__block--title1'>{item.title1}</div>
-                            <div className='infoBlock__carouselBox__block--title2'>{item.title2}</div>
+                        <div key={index} className={'infoBlock__carouselBox__block1'}>
+                            <div className='infoBlock__carouselBox__block--img1'><img src={item.img} alt={'sad'} /></div>
+                            <div className='infoBlock__carouselBox__block--title11'>{item.title1}</div>
+                            <div className='infoBlock__carouselBox__block--title21'>{item.title2}</div>
                             <div>{item.listik.map((item, index) => {
                                 return (
                                     
@@ -55,7 +55,7 @@ export default function Block() {
                         </div>
                     )
                 })}
-                <div className="infoBlock__carouselBox__but" onClick={() => rigth()}>
+                <div className="infoBlock__carouselBox__but1" onClick={() => rigth()}>
                     <p>&gt;</p>
                 </div>
             </div>
