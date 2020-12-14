@@ -5,9 +5,9 @@ import './Line.css';
 
 export default function Line(props) {
   return (
-    <div className= 'info'>
+    <div className= 'line__info'>
       <div>
-        <p  className ='info__tex'>&#10102;</p>
+        <p  className ='line__info__tex'>&#10102;</p>
       </div>
     </div>
   )

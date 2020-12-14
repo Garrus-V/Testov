@@ -1,15 +1,14 @@
-.info{
+.line__info{
   width: 100%;
-  background-color: #fff;
+  
   padding-top: 10px;
   padding-bottom: 10px;
   height: auto;
   
 }
-.info__tex{
+.line__info__tex{
   text-align: center;
   font-size: 30px;
-  color: #fff;
   margin: 0 auto;
   width: 50px;
   height: 50px;

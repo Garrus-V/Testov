@@ -1,0 +1,19 @@
+.line__info1{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  background-color: #6d967d;
+  color: #fff;
+  
+}
+.line__info__tex1{
+  margin: 0 auto;
+  height:50px;
+  width:50px;  
+  border-radius:50%;
+  background: #2b362a;
+  text-align:center;
+  font-size:30px;
+  color:#fff
+}

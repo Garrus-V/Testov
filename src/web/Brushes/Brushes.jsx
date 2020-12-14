@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Brushes.css'
-import firstImg from '../../images/01.jpg'
-import secImg from '../../images/02.jpg'
-import thidImg from '../../images/03.jpg'
+import firstImg from '../../images/04.jpg'
+import secImg from '../../images/04.jpg'
+import thidImg from '../../images/04.jpg'
 
 export default function Brushes() {
     const [arrFix, setarrFix] = useState(3)
@@ -33,11 +33,13 @@ export default function Brushes() {
 
     return (
         <>
-
+                 <div className='infoBlock__carouselBox__titl3'>
+                    <strong>Обновленный</strong> набор кистей FAVORITE
+                 </div>
 
             <div className="infoBlock__carouselBox3">
                 <div className="infoBlock__carouselBox__but3" onClick={() => left()}>
-                    <p>&gt;</p>
+                <div class="arrow left"></div>
                   </div>
                 {active.length > 0 && active.map((item, index) => {
                     return (
@@ -50,11 +52,23 @@ export default function Brushes() {
                                     <li key={index}>{item}</li>
                                 )
                             })}</div>
+                                <div>
+                                <div className ='infoBlock__carouselBox__block3__but3'>
+                                    Купить
+                                </div>
+                           </div>
+
+  
+
+
+
                         </div>
                     )
                 })}
+                
+                
                 <div className="infoBlock__carouselBox__but3" onClick={() => rigth()}>
-                    <p>&gt;</p>
+                    <div class="arrow right"></div>
                 </div>
             </div>
         </>

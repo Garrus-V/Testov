@@ -33,11 +33,19 @@ export default function Sets() {
 
     return (
         <>
+             <div className='infoBlock__carouselBox__titl4'>
+             <h1>Набор "INSTA художник"</h1>
+                 <p>Сюда входит:</p>
+                  <ul>
+                      <li>Чек лист "Оформление аккаунта"</li>
+                      <li>Чек лист "Продвижение художника"</li>                     
+                  </ul>
+             </div>
 
 
             <div className="infoBlock__carouselBox4">
                 <div className="infoBlock__carouselBox__but4" onClick={() => left()}>
-                    <p>&lt;</p>
+                <div class="arrow left"></div>
                   </div>
                 {active.length > 0 && active.map((item, index) => {
                     return (
@@ -50,11 +58,18 @@ export default function Sets() {
                                     <li key={index}>{item}</li>
                                 )
                             })}</div>
+                            <div>
+                                <div className ='infoBlock__carouselBox__block4__but4'>
+                                    Купить
+                                </div>
+                                    
+                           </div>
+
                         </div>
                     )
                 })}
                 <div className="infoBlock__carouselBox__but4" onClick={() => rigth()}>
-                    <p>&gt;</p>
+                <div class="arrow right"></div>
                 </div>
             </div>
         </>

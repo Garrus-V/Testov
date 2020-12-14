@@ -40,7 +40,8 @@
     flex-basis: auto;
     border-radius: 20px;
     height: 50px;
-    width: 400px
+    width: 400px;
+    outline: none;
     
     
     /*border: solid;

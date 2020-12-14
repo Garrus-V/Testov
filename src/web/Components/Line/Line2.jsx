@@ -1,13 +1,11 @@
 import React from 'react';
-import './Line.css';
+import './Line2.css';
 
-
-
-export default function Line(props) {
+export default function Line2(props) {
   return (
-    <div className= 'info'>
+    <div className= 'line__info2'>
       <div>
-        <p  className ='info__tex'>&#10104;</p>
+        <p  className ='line__info__tex2'>3</p>
       </div>
     </div>
   )

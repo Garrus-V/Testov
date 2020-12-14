@@ -31,6 +31,7 @@ function App(props) {
         <Sets />
         <Line4 />
         <Feedback />
+        <Line4 />
         <Reviews />
       </div>
       <Footer />

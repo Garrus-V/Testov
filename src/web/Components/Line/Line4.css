@@ -1,11 +1,11 @@
-.info{
+.line__info4{
   width: 100%;
-  background-color: #817171;
+  /*background-color: #fff;*/
   padding-top: 10px;
   padding-bottom: 10px;
   height: auto;
 }
-.info div{
+.line__info__tex4{
 
 text-align: center;
 
